@@ -11,7 +11,7 @@ sleep(12)
 user_name = driver.find_elements(By.TAG_NAME, "input")
 user_name[0].send_keys("") # Nick
 user_name[1].send_keys("") # Password
-# Click to login
+# Click login button
 sleep(3)
 
 login_button = driver.find_elements(By.TAG_NAME, "button")
